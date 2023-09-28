@@ -21,7 +21,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body className={font.className}>
+       <head>
+          <link rel="icon" href="/favicon.ico" />
+        </head>
+      <body className={font.className}>    
+       
         <ToastProvider />
         <ModalProvider />
         <Navbar />
