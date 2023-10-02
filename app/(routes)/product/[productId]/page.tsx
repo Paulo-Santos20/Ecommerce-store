@@ -24,7 +24,7 @@ const ProductPage: React.FC<ProductPageProps> = async ({
   if (!product) {
     return null;
   }
-
+  
   return (
     <div className="bg-white">
       <Container>
@@ -35,8 +35,10 @@ const ProductPage: React.FC<ProductPageProps> = async ({
               <Info data={product} />
             </div>
           </div>
-          <hr className="my-10" />
-          <ProductList title="Related Items" items={suggestedProducts} />
+          <hr className="my-10" />   
+          <div className="text-center">      
+          <ProductList title="Você também pode gostar" items={suggestedProducts} />          
+          </div> 
         </div>
       </Container>
     </div>  
