@@ -13,10 +13,7 @@ const Footer = () => {
         </div>
         <div className="text-center mb-4">
           Boa Viagem, Recife - PE, 51021-350
-        </div>
-        <div className="text-center mb-4">
-          Todos os direitos reservados
-        </div>
+        </div>        
         <p className="text-center text-xs text-black">
           &copy; 2023 Mary Maria Moda Fitness, Inc. All rights reserved.
         </p>
