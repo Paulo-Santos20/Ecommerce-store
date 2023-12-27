@@ -12,14 +12,16 @@ const Navbar = async () => {
   const categories = await getCategories();
 
   return (
-    <div className="bg-pink-300">
+    <div className="bg-pink-400">
       <Container>
         <div className="relative px-4 sm:px-6 lg:px-8 flex flex-col h-30 items-center">
           <Link href="/" className="bg-white p-5 ml-4 flex lg:ml-0 gap-x-2">
-            <p className="font-bold text-xl">Mary Maria Moda Fitness</p>
-            <div className="image-section">
+            <a className="bg-white p-5 ml-4 flex lg:ml-0 gap-x-2">
+              <p className="font-bold text-xl text-center">Mary Maria Moda Fitness</p>
+              <div className="image-section">
                 <Image src="/mary.jpg" alt="Mary Maria Moda Fitness" width={100} height={50} />
               </div>
+            </a>
           </Link>
           <MainNav data={categories} />
           <NavbarActions />
