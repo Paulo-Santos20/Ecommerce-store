@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="bg-pink-600 border-t">
+    <footer className="bg-pink-200 border-t">
       <div className="mx-auto py-10 flex flex-col items-center">
         <div className="text-center mb-4">
           CNPJ: 42.365.901/0001-27
