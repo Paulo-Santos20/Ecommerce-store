@@ -18,7 +18,7 @@ const Navbar = async () => {
           <Link href="/" className="bg-white p-5 ml-4 flex lg:ml-0 gap-x-2">
             <a className="bg-white p-5 ml-4 flex lg:ml-0 gap-x-2">              
               <div className="image-section">
-                <Image src="/mary.jpg" alt="Mary Maria Moda Fitness" width={100} height={50} />
+                <Image src="/mary.jpg" alt="Mary Maria Moda Fitness" />
               </div>
             </a>
           </Link>
